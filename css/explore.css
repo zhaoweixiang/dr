@@ -1,0 +1,408 @@
+.banner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.firstly{
+    height: 134px;
+    padding: 18px 0;
+}
+h1{
+    margin-top: 14px;
+    margin-left: 17px;
+}
+.firstly .font{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #626262;
+    position: relative;
+    top: 104px;
+    left: 50px;
+}
+.firstly .top ul{
+    height: 46px;
+    line-height: 46px;
+    font-size: 12px;
+}
+.top ul li a{
+    color: #8d8d8d;
+}
+.top ul li:nth-child(3) img{
+    margin-top: 17px;
+    margin-right: 6px;
+}
+.top ul li span{
+    padding:0 9px 0 10px;
+}
+.top ul li:last-child{
+    padding-right: 20px;
+    background: url("../images/bott_under.jpg") no-repeat 75px 22px;
+}
+.mid{
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+}
+.mid a:nth-child(1) img{
+    margin-top: 12px;
+    margin-right: 6px;
+}
+.mid a:nth-child(2){
+    color: #bf967c;
+}
+.mid a:nth-child(3){
+    margin-left: 13px;
+}
+.bot{
+    margin-top: 18px;
+}
+.bot .look_love span{
+    font-size: 12px;
+    color: #606060;
+    line-height: 26px;
+}
+.bot .look_love input{
+    border: 1px solid #d7d7d7;
+    margin-left: 14px;
+    padding: 0 5px;
+    width: 278px;
+    height: 26px;
+    background: url("../images/ico-seach.png") no-repeat 260px 4px;
+}
+.secondly{
+    background: #797979;
+    height: 50px;
+}
+.secondly li:nth-child(1){
+    margin-left: 28px;
+}
+.secondly li{
+    width: 126px;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+}
+.secondly li a{
+    color: #fff;
+}
+.DR_ring{
+    height: 70px;
+    line-height: 70px;
+    color: #666;
+    font-family: 'simsun';
+}
+.picture_big img{
+    width: 100%;
+    height: 367px;
+}
+.choose{
+    width: 100%;
+}
+.choose div{
+    padding: 14px 0;
+    border: 1px solid #e9e9e9;
+    background: #fafafa;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+}
+.choose span{
+    margin: 0 12px 0 18px;
+}
+.choose div .all{
+    color: #c57d5c;
+}
+.choose div a{
+    color: #666;
+    margin-right: 40px;
+}
+.thirdly ul{
+    display: inline-block;
+}
+.thirdly li{
+    width: 480px;
+    margin-bottom: 40px;
+    font-family: 'simsun';
+}
+.thirdly li:nth-child(2n){
+    margin-left: 40px;
+}
+.thirdly li div{
+    background: #fafafa;
+    text-align: center;
+    padding: 24px 0 30px;
+    border-bottom: 2px solid #e9e9e9;
+}
+.thirdly li h3{
+    font-size: 28px;
+    color: #333;
+    font-weight: normal;
+}
+.thirdly li h4{
+    font-size: 18px;
+    color: #666;
+    font-weight: normal;
+}
+.thirdly li p{
+    width: 60px;
+    height: 23px;
+    margin-left: 210px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #676767;
+}
+.thirdly li div a{
+    font-size: 12px;
+    color: #666;
+}
+.fourth{
+    height: 140px;
+    margin-top: 64px;
+    text-align: center;
+}
+.fourth .look_find{
+    padding-bottom: 28px;
+}
+.fourth .look_find p{
+    height: 55px;
+    background: #dbc7ba;
+}
+.fourth .look_find img{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin: -85px 0 0 -61px;
+}
+.fourth .look_find em{
+    font-style: normal;
+    font-size: 26px;
+    color: #848484;
+    height: 85px;
+}
+.fourth{
+    text-align: center;
+    color: #898989;
+    height: 376px;
+    padding-bottom: 95px;
+}
+.fourth li:nth-child(n){
+    width: 148px;
+    height: 148px;
+    border: 1px solid #ececec;
+}
+.look_list{
+    font-size: 12px;
+}
+.look_list  li{
+    margin-right: 18px;
+}
+.look_list  li:last-child{
+    margin-right: 0;
+}
+.look_list li .theMember{
+    cursor: pointer;
+    position: relative;
+    left: 110px;
+    top: -151px;
+}
+.look_list  li h3{
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'simsun';
+}
+.look_list li h3.h3{
+    margin-top: 20px;
+}
+.look_list  li p{
+    width: 24px;
+    height: 12px;
+    border-bottom: 2px solid #898989;
+    margin-left: 63px;
+}
+.look_list  li em{
+    line-height: 32px;
+    font-style: normal;
+}
+.split_line{
+    background: url(../images/footer_rp.jpg) repeat-x;
+    height: 34px;
+}
+.fifth ul{
+    padding: 30px 0;
+}
+.fifth ul li{
+    width: 80px;
+    margin: 0 31px;
+    font-size: 14px;
+}
+.fifth li p{
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+}
+.fifth li .p1{
+    background: url("../images/icon_footer.png") no-repeat;
+}
+.fifth li .p2{
+    background: url("../images/icon_footer.png") no-repeat -60px 0;
+}
+.fifth li .p3{
+    background: url("../images/icon_footer.png") no-repeat -120px 0;
+}
+.fifth li .p4{
+    background: url("../images/icon_footer.png") no-repeat -180px 0;
+}
+.fifth li .p5{
+    background: url("../images/icon_footer.png") no-repeat -240px 0;
+}
+.fifth li .p6{
+    background: url("../images/icon_footer.png") no-repeat -300px 0;
+}
+.fifth li .p7{
+    background: url("../images/icon_footer.png") no-repeat -360px 0;
+}
+.fifth li a{
+    width: 80px;
+    color: #666;
+    text-align: center;
+    margin-top: 16px;
+    display: inline-block;
+}
+.sixth{
+    background: #e9e9e9;
+    height: 100px;
+}
+.gray ol{
+    margin-top: 26px;
+ }
+.gray ol li.li{
+    background: url(../images/coin_left.png) no-repeat ;
+    height: 39px;
+    line-height: 39px;
+    padding-left: 46px;
+    color: #797979;
+    font-size: 20px;
+    margin-right: 48px;
+}
+.gray ol li:last-child p{
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 6px;
+}
+.seventh{
+    background: #797979;
+    padding: 56px 0;
+}
+.seventh ol li:first-child{
+    border-left:none;
+    margin-left: 20px;
+}
+.seventh ol li{
+    width: 58px;
+    height: 100px;
+    padding: 6px 50px;
+    font-size: 14px;
+    color: #cdcdcd;
+    line-height: 22px;
+    font-family: 'simsun';
+    border-left: 2px solid #959292;
+}
+.seventh ol li a{
+    color: #cdcdcd;
+}
+.seventh .coo{
+    text-align: center;
+    font-size: 12px;
+    color: #c9c7c7;
+    line-height: 20px;
+    margin-top: 68px;
+}
+.seventh .share{
+    color: #999898;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+    padding-bottom: 40px;
+}
+.seventh .share a{
+    color: #999898;
+    display: inline-block;
+    margin: 0 6px 4px 6px;
+}
+.seventh .language{
+    font-family: "SimSun";
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.seventh .language a{
+    color: #cdcdcd;
+}
+.eighth{
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    background: #dbc7ba;
+    width: 50px;
+    height: 580px;
+    text-align: center;
+}
+.eighth .one{
+    background: #d9b39b;
+    width: 58px;
+    position: relative;
+    top: -34px;
+    left: -4px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 16px;
+    padding-bottom: 14px;
+    cursor: pointer;
+}
+.eighth .one p{
+    padding: 0 12px;
+}
+.eighth .one img{
+    margin-left: 5px;
+}
+.eighth li{
+    height: 50px;
+    line-height: 50px;
+    margin: 17px 0;
+}
+.eighth li p{
+    width: 30px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.eighth li .a1{
+    height: 29px;
+    background: url(../images/icon_servie.png) no-repeat 0 -33px;
+}
+.eighth li .a2{
+    height: 30px;
+    background: url(../images/icon_servie.png) no-repeat 0 -74px;
+}
+.eighth li .a3{
+    height: 27px;
+    background: url(../images/icon_servie.png) no-repeat 0 -120px;
+}
+.eighth li .a4{
+    width: 26px;
+    height: 29px;
+    background: url(../images/icon_servie.png) no-repeat -2px -159px;
+}
+.eighth li .a5{
+    width: 18px;
+    height: 30px;
+    background: url(../images/icon_servie.png) no-repeat -6px -199px;
+}
+.eighth li .a6{
+    width: 24px;
+    height: 30px;
+    background: url(../images/icon_servie.png) no-repeat -3px -239px;
+}
+.eighth li:last-child{
+    background: url(../images/totop.jpg) no-repeat 0 0;
+}

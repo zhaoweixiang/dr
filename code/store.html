@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/store.css">
+	<style>
+		.shopBanNav li{
+			float: left;
+			width: 249px;
+			height: 28px;
+			text-align: center;
+			line-height: 28px;
+			background: #444;
+			opacity:0.5;
+			border-right: 1px solid #fff;
+		}
+		.shopBanNav li a{
+			color: #fff;
+			opacity: 0.5;
+			font-size: 14px;
+		}
+		.shopBanNav li:nth-child(4){
+			border-right: none;
+		}
+		.shopBanNav li:hover{
+			opacity: 0.7;
+		}
+		.shopBanNav li:hover a{
+			opacity:1;
+		}
+		section .lunbo{
+			position: relative;
+		}
+		.shopBanNav{
+			position: absolute;
+			bottom:0;
+			left:0;
+		}
+		section .banner li{
+			display: none;
+		}
+		.active{
+			opacity: 0.7;
+		}
+	</style>
+	<script>
+		window.onload=function () {
+			let oUl=document.getElementById('banner');
+            let aLi1=oUl.getElementsByTagName('li');
+            let oOl=document.getElementById('shopBanNav');
+            let aLi2=oOl.getElementsByTagName('li');
+            for(var i=0; i<aLi2.length; i++){
+                aLi2[i].index=i;
+                aLi2[i].onclick=function () {
+                    for(var i=0; i<aLi2.length; i++) {
+                        aLi2[i].className='';
+                        aLi1[i].style.display='none';
+                    }
+ 					this.className='active';
+                    aLi1[this.index].style.display = 'block';
+                }
+			}
+        }
+	</script>
+</head>
+<body>
+    <div class="box">
+    	<header>
+			<div class="clearFix top inner">
+				<div class="fl DR">
+					<a href="javascript:;" class="logo fl">
+					</a>
+					<a href="javascript:;" class="dingzhi fr">男士一生仅能定制一枚</a>
+				</div>
+				<div class="fr top_box">
+					<ul class="clearFix">
+						<li><a href="login.html">登陆<i>/</i></a></li>
+						<li><a href="register.html">加入DR族<i>/</i></a></li>
+						<li><i class="tel"></i>400-01-13520<i>/</i></li>
+						<li><a href="javascript:;">DR社区<i>/</i></a></li>
+						<li><a href="javascript:;">DR族APP<i>/</i></a></li>
+						<li><a href="javascript:;">手机官网<i>/</i></a></li>
+						<li class="last">
+							<a href="javascript:;">中文(简体)<i class="bottom"></i></a>
+							<div class="language">
+								<a href="javascript:;">English</a>
+								<a href="javascript:;">中文(繁体)</a>
+							</div>
+						</li>
+					</ul>
+					<div class="clearFix">
+			    		<span class="fr">
+				    		<a href="javascript:;" class="GPS fl">
+				    			深圳
+				    		</a>
+				    		<a href="javascript:;" class="fl color">
+				    		   全国店铺<i class="r">&gt</i>
+				    		</a>
+			    		</span>
+					</div>
+					<div class="input">
+						见证浪漫爱情<input type="text" class="yanzheng" placeholder="请输入身份证号验证真爱承诺">
+						<i class="trueLoveSeach"></i>
+					</div>
+				</div>
+			</div>
+		    <div class="nav">
+			    <div class="inner">
+			    	<a href="../index.html">DR</a>
+			    	<a href="proposal.html">求婚钻戒</a>
+			    	<a href="exclusive.html">爱的礼物</a>
+			    	<a href="darry_ring.html">钻戒定制</a>
+			    	<a href="javascript:;">DR实体店</a>
+			    	<a href="Culture.html">DR品牌文化</a>
+			    	<a href="explore.html">探索DR</a>
+			    </div>
+		    </div>
+    	</header>
+    	<section>
+	    	<div class="inner">
+	    		<div class="tit">
+			    	<a href="javascript:;">Darry Ring</a>
+			    	<span class="rt">></span>
+			    	<a href="javascript:;">Darry Ring实体店分布</a>
+				</div>
+				<div class="lunbo">
+					<ul class="inner banner" id="banner">
+						<li style="display: block">
+							<a href="javascript:;">
+							  <img src="../images/1484274513.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="../images/1477904440.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="../images/1477904683.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<img src="../images/1483529876.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+					<ol class="clearFix shopBanNav" id="shopBanNav">
+						<li><a href="javascript:;">香港店</a></li>
+						<li><a href="javascript:;">大连凯丹广场店</a></li>
+						<li><a href="javascript:;">郑州大商国贸店</a></li>
+						<li><a href="javascript:;">长春活力城店</a></li>
+					</ol>
+				</div>
+			    <div class="clearFix rings">
+				    <div class="ring">
+				    	<h2>钻戒试戴</h2>
+	                    <p>专人介绍，实体店试戴</p>
+				    </div>
+				    <div class="ring">
+				    	<h2>购钻指导</h2>
+	                    <p>专家指导，量身定制您心仪的钻戒。</p>
+				    </div>
+				    <div class="ring">
+				    	<h2>钻戒保养</h2>
+	                    <p>提供钻戒清洗等保养服务</p>
+				    </div>
+				    <div class="ring">
+				    	<h2>钻戒升级</h2>
+	                    <p>为您的钻戒提供更换款式、 以小换大等升级服务咨询。</p>
+				    </div>
+			    </div>
+			    <div class="search">
+				    <span class="country Area">
+						国家/地区：<select name="country" id="shop-countries" class="countries">
+							<option value="cn">中国</option>
+						</select>
+					</span>
+					<span class="province Area">
+						所在省份：<select name="country" id="province" class="countries">
+							<option value>请选择省份</option>
+							<option value="1">北京</option>
+							<option value="2">天津市</option>
+							<option value="3">河北省</option>
+							<option value="4">山西省</option>
+							<option value="5">内蒙古</option>
+							<option value="6">辽宁省</option>
+							<option value="7">吉林省</option>
+							<option value="8">黑龙江</option>
+							<option value="9">上海市</option>
+							<option value="10">江苏省</option>
+							<option value="11">浙江省</option>
+							<option value="12">安徽省</option>
+							<option value="13">福建省</option>
+							<option value="14">江西省</option>
+							<option value="15">山东省</option>
+							<option value="16">河南省</option>
+							<option value="17">湖北省</option>
+							<option value="18">湖南省</option>
+							<option value="19">广东省</option>
+							<option value="20">广  西</option>
+							<option value="21">海南省</option>
+							<option value="22">重庆市</option>
+							<option value="23">四川省</option>
+							<option value="24">贵州省</option>
+							<option value="25">云南省</option>
+							<option value="26">西  藏</option>
+							<option value="27">陕西省</option>
+							<option value="28">甘肃省</option>
+							<option value="29">青海省</option>
+							<option value="30">宁  夏</option>
+							<option value="31">新  疆</option>
+							<option value="32">台湾省</option>
+							<option value="33">香  港</option>
+							<option value="34">澳  门</option>
+						</select>
+					</span>
+					<span class="city Area">
+						所在城市：<select name="country" id="city" class="countries">
+							<option value>请选择城市</option>
+						</select>
+					</span>
+					<a href="javascript:;" class="searchBtn">搜索
+					</a>
+				</div>
+				<div class="clearFix">
+					<ul class="store fl">
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">香港店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>香港九龙尖沙咀弥敦道63号 i SQUARE 国际广场地铁H出口6B号店铺</p>
+								  <p>香港店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:30-21:00（节假日照常接待）</p>
+									<p>预约电话：（+852）2367 7389</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">上海-香港广场店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>上海市黄浦区淮海中路282号香港广场商场北座NL1-09B室</p>
+								  <p>Darry Ring上海香港广场店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00-22:00（节假日照常接待）</p>
+									<p>预约电话：021-6314 0533</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">北京-银泰in88店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>北京市东城区王府井大街88号银泰百货in88 1幢地上二层L211号商铺</p>
+								  <p>Darry Ring北京银泰in88店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00 -22:00（节假日照常接待）</p>
+									<p>预约电话：010-5978 5521</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">深圳-世界之窗店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>广东省深圳市南山区 华侨城世界之窗 欧陆风情街8号楼（世界之窗地铁站I出口 靠左边前行400米）</p>
+								  <p>深圳世界之窗店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：9:00-22:00（节假日照常接待）</p>
+									<p>预约电话：0755-8662 1782</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">成都-晶融汇广场店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>四川省成都市 东大街99号晶融汇广场一层114单元</p>
+								  <p>Darry Ring成都晶融汇广场店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00-22:00（节假日照常接待）</p>
+									<p>预约电话：028-8147 4520</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">重庆-WFC店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>重庆市渝中区解放碑步行街民族路188号环球金融中心（WFC）LG-B03</p>
+								  <p>Darry Ring重庆WFC店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00-22:00（节假日照常接待）</p>
+									<p>预约电话：023-6371 0835</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">武汉-风情街店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>湖北省武汉市洪山区 光谷意大利风情街5号楼一层51021号</p>
+								  <p>Darry Ring武汉风情街店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：9:00-22:00（节假日照常接待）</p>
+									<p>预约电话：027-8768 8895</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">南京-1912店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>江苏省南京市 长江路288号1912街区A17号楼一层</p>
+								  <p>Darry Ring南京1912店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00-22:00（节假日照常接待）</p>
+									<p>预约电话：025-8361 3520</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">长沙-万达广场店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>湖南省长沙市开福区中山路589号开福万达广场一层2号门</p>
+								  <p>Darry Ring长沙万达广场店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00-22:00（节假日照常接待）</p>
+									<p>预约电话：0731-8411 3520</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">郑州-大商金博大店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>香港九龙尖沙咀弥敦道63号 i SQUARE 国际广场地铁H出口6B号店铺</p>
+								  <p>Darry Ring郑州大商金博大店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：9:30-21:30（节假日照常接待）</p>
+									<p>预约电话：0371-6701 0502</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="store store2 fl">
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">广州-中信广场店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>广东省广州市天河区天河北路233号中信广场中天购物城商场134-135单元（林和西地铁站 D出口）</p>
+								  <p>广州中信广场店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00-22:00（节假日照常接待）</p>
+									<p>预约电话：020-3883 6315</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">上海-红坊店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>上海市长宁区淮海西路570号红坊创意园区G-108 栋(近虹桥路)</p>
+								  <p>Darry Ring上海红坊店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：9:00-22:00（节假日照常接待）</p>
+									<p>预约电话：021-6093 4520</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">北京-SOHO店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>北京市东二环 朝阳门桥银河SOHO中心负一层B-2109（朝阳门地铁站G出口)</p>
+								  <p>Darry Ring北京SOHO店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：9:00-22:00（节假日照常接待）</p>
+									<p>预约电话：010-5957 6758</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">合肥-万象城店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>安徽省合肥市政务区潜山路与习友路交叉口万象城第B1层B126号商铺DR体验店</p>
+								  <p>Darry Ring合肥万象城店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00-22:00（节假日照常接待）</p>
+									<p>预约电话：0551-6421 3520</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">成都-仁恒置地店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>四川省成都市人民南路二段1号仁恒置地广场购物中心三层322A-322B号单元</p>
+								  <p>Darry Ring成都仁恒置地店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00 -22:00（节假日照常接待）</p>
+									<p>预约电话：028-6186 7010</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">重庆-观音桥店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>重庆市江北区观音桥步行街2号附5号融恒•盈嘉中心L1-06室</p>
+								  <p>Darry Ring重庆观音桥店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00-22:00（节假日照常接待）</p>
+									<p>预约电话：023-6752 7832</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">武汉-壹方购物中心店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>湖北省武汉市江岸区中山大道1515号壹方购物中心2层商40单元（2-40）</p>
+								  <p>Darry Ring武汉壹方购物中心店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00-22:00（节假日照常接待）</p>
+									<p>预约电话：027-8291 3520</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">南京-金茂汇店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>江苏省南京市鼓楼区中央路201号金茂汇购物中心1层L115A-L115B铺</p>
+								  <p>Darry Ring南京金茂汇店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00-22:00（节假日照常接待）</p>
+									<p>预约电话：025-8441 3520</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">昆明-万达广场店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>云南省昆明市 西山区前兴路万达广场春城金街A18号</p>
+								  <p>Darry Ring昆明万达广场店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：9:00-22:00（节假日照常接待））</p>
+									<p>预约电话：0871-6825 8265</p>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<h4 class="clearFix">
+						<a href="javascript:;" class="fl">郑州-大商国贸店</a>
+							    <a href="javascript:;" class="bj fl"></a>
+							</h4>
+							<ul class="message">
+								<li class="place">
+								  <p>河南省郑州市金水区花园路大商新玛特国贸总店一楼珠宝区B5</p>
+								  <p>Darry Ring郑州大商国贸店</p>
+								</li>
+								<li class="contact">
+									<p>营业时间：10:00-21:30（节假日照常接待）</p>
+									<p>预约电话：0371-6368 5215</p>
+								</li>
+							</ul>
+						</li>
+					</ul>
+			    </div>
+			    <div class="page clearFix">
+				    <ul class="fl pages">
+				    	<li class="width"><a href="javascript:;">首页</a></li>
+				    	<li class="width"><a href="javascript:;">上一页</a></li>
+				    	<li class="num">
+				    		<ul class="nums clearFix">
+				    			<li class="background">
+				    			  <a href="javascript:;">1</a>
+				    			</li>
+				    			<li>
+				    			  <a href="javascript:;">2</a>
+				    			</li>
+				    			<li class="last">
+				    			  <a href="javascript:;">3</a>
+				    			</li>
+				    		</ul>
+				    	</li>
+				    	<li class="width"><a href="javascript:;">下一页</a></li>
+				    	<li class="width last"><a href="javascript:;">末页</a></li>
+				    </ul>
+				    <span class="fl total">共54 1/3页</span>
+			    </div>
+			    <img src="../images/1484711487.jpg" alt="">
+			</div>
+    	</section>
+    	<footer>
+    		<div class="bc">
+	    		<div class="inner">
+	    			<h4>大家都在关注</h4>
+	    			<ul class="attentionList clearFix">
+	    				<li>
+	    				    <a href="javascript:;" class="re">
+		    					<img src="../images/1487741818.jpg" alt="">
+		    					<div class="ab">
+			    					<p>
+			    					    My Heart 系列 简奢款 50分 D色
+			    					</p>
+			    					<span class="none">
+			    							<i>￥29979</i>
+			    							销量：15452
+			    					</span>
+		    					</div>
+	    					</a>
+	    				</li>
+	    				<li>
+	    				    <a href="javascript:;" class="re">
+		    					<img src="../images/1486708803.png" alt="">
+		    					<div class="ab">
+			    					<p>
+										Believe 系列 典雅 30分 F色
+			    					</p>
+			    					<span class="none">
+			    							<i>￥15889</i>
+			    							销量：21560
+			    					</span>
+		    					</div>
+	    					</a>
+	    				</li>
+	    				<li>
+	    				    <a href="javascript:;" class="re">
+		    					<img src="../images/1486706737.png" alt="">
+		    					<div class="ab">
+			    					<p>
+										Forever 系列 经典款 40分 F色
+			    					</p>
+			    					<span class="none">
+			    							<i>￥17519</i>
+			    							销量：26813
+			    					</span>
+		    					</div>
+	    					</a>
+	    				</li>
+	    				<li>
+	    				    <a href="javascript:;" class="re">
+		    					<img src="../images/1486968103.png" alt="">
+		    					<div class="ab">
+			    					<p>
+										With You 系列 热恋红宝石 30分 D色
+			    					</p>
+			    					<span class="none">
+			    							<i>￥28460</i>
+			    							销量：165
+			    					</span>
+		    					</div>
+	    					</a>
+	    				</li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    	<div class="bc000"></div>
+    	</footer>
+		<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+        <!--foot-->
+        <div class="foot">
+            <div class="foot-A"></div>
+            <div class="foot-B"></div>
+            <div class="foot-C"></div>
+            <div class="foot-D wrap">
+                <ul class="clearFix">
+                    <li>
+                        <img src="../images/f_1.jpg" alt="">
+                        <p>权威认证</p>
+                    </li>
+                    <li>
+                        <img src="../images/f_2.jpg" alt="">
+                        <p>一钻双证</p>
+                    </li>
+                    <li>
+                        <img src="../images/f_3.jpg" alt="">
+                        <p>终生保养</p>
+                    </li>
+                    <li>
+                        <img src="../images/f_4.jpg" alt="">
+                        <p>以小换大</p>
+                    </li>
+                    <li>
+                        <img src="../images/f_5.jpg" alt="">
+                        <p>15天退货</p>
+                    </li>
+                    <li>
+                        <img src="../images/f_6.jpg" alt="">
+                        <p>全国免运费</p>
+                    </li>
+                    <li>
+                        <img src="../images/f_7.jpg" alt="">
+                        <p>全程保险</p>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="foot-E">
+                <div class="foot-E_1 wrap">
+                    <ul class="fl">
+                        <li>关注我们</li>
+                        <li>真爱查询</li>
+                        <li>实体店免费预约</li>
+                        <li>在线客服</li>
+                    </ul>
+                    <div class="fl">
+                        <p>免费服务热线 工作时间：9:00-22:30</p>
+                        <h3>400 01 13520</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-F">
+                <div class="foot-F_1 wrap">
+                    <ul class="clearFix">
+                        <li>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                        </li>
+                        <li class="foot-F_1_li">
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                            <a href="javascript:;">关于我们</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="foot-F_2 wrap">
+                    <p>
+                        Copyright © 2006-2015 www.darryring.com 戴瑞珠宝 All Rights Reserved. 粤ICP备11012085号-2
+                    </p>
+                    <h4>
+                        ICP经营许可证粤B2-20140279 | 中国互联网违法信息举报中心 | 中国公安网络110报警服务 | 本网站提供所售商品的正式发票
+                    </h4>
+                    <div class="foot-F_2_div">
+                        <span>友情链接：</span>
+                        <a href="javascript:;">戴瑞珠宝官网</a>
+                        <a href="javascript:;">求婚词</a>
+                        <a href="javascript:;">钻石戒指</a>
+                        <a href="javascript:;">魅网女性网</a>
+                        <a href="javascript:;">拍鞋网</a>
+                        <a href="javascript:;">饰品品牌</a>
+                        <a href="javascript:;">化妆品库</a>
+                        <a href="javascript:;">南京房产网</a>
+                        <a href="javascript:;">娱乐新闻</a>
+                        <a href="javascript:;">建材商城</a>
+                        <a href="javascript:;">手表品牌排行</a>
+                        <a href="javascript:;">识货</a>
+                        <a href="javascript:;">梦芭莎时尚网</a>
+                        <a href="javascript:;">发型设计</a>
+                        <a href="javascript:;">白领</a>
+                        <a href="javascript:;">眼镜店</a>
+                        <a href="javascript:;">婚纱摄影</a>
+                        <a href="javascript:;">播视网视频</a>
+                        <a href="javascript:;">发型</a>
+                        <a href="javascript:;">中国女装网</a>
+                        <a href="javascript:;">快递查询</a>
+                        <a href="javascript:;">火车票查询</a>
+                        <a href="javascript:;">伊宅购村安商城</a>
+                        <a href="javascript:;">珂兰钻石</a>
+                        <a href="javascript:;">海外房产</a>
+                        <a href="javascript:;">白酒招商</a>
+                        <a href="javascript:;">爱藏网</a>
+                        <a href="javascript:;">新浪当代艺术</a>
+                        <a href="javascript:;">淘翠网</a>
+                        <a href="javascript:;">重庆房产</a>
+                        <a href="javascript:;">天气预报查询</a>
+                        <a href="javascript:;">海淘</a>
+                        <a href="javascript:;">258</a>
+                        <a href="javascript:;">大学院校库</a>
+                        <a href="javascript:;">佐卡伊钻戒</a>
+                        <a href="javascript:;">南湖国旅</a>
+                        <a href="javascript:;">化妆品招商</a>
+                        <a href="javascript:;">笔趣阁txt下载</a>
+                        <a href="javascript:;">女性健康</a>
+                        <a href="javascript:;">钻戒</a>
+                        <a href="javascript:;">礼物</a>
+                        <a href="javascript:;">手表品牌大全</a>
+                        <a href="javascript:;">钻戒</a>
+                        <a href="javascript:;">婚嫁网</a>
+                        <a href="javascript:;">手机靓号网</a>
+                        <a href="javascript:;">律师</a>
+                        <a href="javascript:;">海淘攻略</a>
+                        <h3>
+                            中文简体/English
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    </div>
+</body>
+</html>
